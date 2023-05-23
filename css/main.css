@@ -1,0 +1,270 @@
+.button-primary {
+  border: 1px solid #FC7753;
+  border-radius: 50px;
+  color: #FC7753;
+  cursor: pointer;
+  margin-left: 0.5rem;
+  padding: 0.65rem;
+}
+
+.button-filled {
+  background: #FC7753;
+  border-radius: 50px;
+  color: #ffffff;
+  cursor: pointer;
+  font-weight: 900;
+  margin-left: 0.5rem;
+  padding: 1rem;
+}
+
+.button-dark-filled {
+  background: #293135;
+  border-radius: 50px;
+  color: #ffffff;
+  cursor: pointer;
+  font-weight: 900;
+  margin-left: 0.5rem;
+  padding: 1rem;
+}
+
+.button-borderless {
+  color: #FC7753;
+  margin-left: 0.5rem;
+}
+
+.newsletter {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+input {
+  border: 1px solid #293135 !important;
+}
+
+.header {
+  background-color: #03363D;
+  height: 100vh;
+}
+.header .content {
+  align-items: center;
+  background-color: #F7F4EF;
+  display: flex;
+  gap: 3rem;
+  height: 100vh;
+  margin-left: 25vw;
+  padding: 13rem;
+  text-align: right;
+}
+.header .content .content-text h1 {
+  font-size: 80px;
+  font-weight: 700;
+}
+.header .content .content-text p {
+  font-size: 32px;
+  font-weight: 100;
+  line-height: 41px;
+}
+.header .content img {
+  max-height: 60vh;
+}
+
+.transparent-recruitment {
+  align-items: center;
+  background: url("../img/trans-bg.png") right/45% no-repeat, #03363D;
+  color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  height: 70vh;
+  justify-content: space-between;
+}
+.transparent-recruitment .content {
+  padding-right: 5rem;
+}
+.transparent-recruitment .content h2 {
+  font-size: 38px;
+  line-height: 57px;
+}
+.transparent-recruitment .content p {
+  font-size: 32px;
+  font-weight: 100;
+  line-height: 41px;
+  padding-right: 3rem;
+}
+.transparent-recruitment .content p.small {
+  font-size: 16px !important;
+}
+
+.industry-experts {
+  padding: 5rem 0;
+}
+.industry-experts .content {
+  display: flex;
+  flex-direction: column;
+}
+.industry-experts .content .content-section {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+}
+.industry-experts .content .content-section .card {
+  border: none;
+  border-radius: 0;
+}
+.industry-experts .content .content-section .card .card-img-top {
+  border-radius: 0 !important;
+}
+.industry-experts .content .content-section .card .card-body {
+  background: #F7F4EF;
+  flex: none;
+}
+.industry-experts .content .content-section .card .card-body p.cta {
+  color: #FC7753;
+  line-height: 24px;
+}
+.industry-experts .content .content-section .card .list-group {
+  border-top: 1px solid rgba(41, 49, 53, 0.2156862745);
+}
+.industry-experts .content .content-section .card .list-group-item {
+  background-color: #F7F4EF;
+  border-color: rgba(41, 49, 53, 0.2156862745);
+  padding: 1rem;
+}
+
+.top-talents {
+  align-items: center;
+  background: url("../img/top-talents.png") left/45% no-repeat, #ffffff;
+  display: flex;
+  flex-direction: row;
+  height: 70vh;
+  justify-content: space-between;
+}
+.top-talents .content {
+  margin-left: 40vw;
+  padding-right: 5rem;
+}
+.top-talents .content h2 {
+  font-size: 38px;
+  line-height: 57px;
+}
+.top-talents .content p {
+  font-size: 32px;
+  font-weight: 100;
+  line-height: 41px;
+  padding-right: 3rem;
+}
+.top-talents .content p.small {
+  font-size: 16px !important;
+}
+
+.latest-roles {
+  display: flex;
+  flex-direction: column;
+  margin-top: 4rem;
+}
+.latest-roles .content-row {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.latest-roles .latest-roles-content {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  margin-top: 3rem;
+}
+.latest-roles .latest-roles-content .card {
+  background-color: #F7F4EF;
+  border: none;
+  padding: 1rem;
+}
+.latest-roles h1 {
+  font-size: 53px;
+  margin-bottom: 3rem;
+  margin-top: 4rem;
+  line-height: 63px;
+}
+.latest-roles .testimonials {
+  margin-bottom: 6rem;
+}
+.latest-roles .testimonials .card-group {
+  gap: 1rem;
+}
+.latest-roles .testimonials .card-group .card {
+  border: none;
+  border-radius: 0;
+}
+.latest-roles .testimonials .card-group .card .card-title {
+  color: #FC7753;
+  border-bottom-color: #FC7753 !important;
+}
+.latest-roles .testimonials .card-group .card-img-top {
+  border-radius: 0;
+  max-height: 95px;
+  padding-left: 1rem;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.insights {
+  background-color: #F7F4EF;
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
+.insights .title {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 4rem;
+}
+.insights .insights-row {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  margin-bottom: 7rem;
+}
+.insights .insights-row .card {
+  padding: 1rem;
+}
+.insights .insights-row .card .card-date {
+  color: #FC7753;
+  font-size: 14px;
+  line-height: 24px;
+  margin: 0;
+}
+.insights .insights-row .card .card-title {
+  font-size: 38px;
+  line-height: 59px;
+}
+.insights .insights-row .card .card-text {
+  font-size: 24px;
+  font-weight: 100;
+  line-height: 40px;
+}
+.insights .insights-row .card .card-cta {
+  font-weight: 100;
+  line-height: 40px;
+}
+.insights .insights-row .bg-1 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/insights-left.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #ffffff;
+}
+.insights .insights-row .bg-2 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/insights-middle.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #ffffff;
+}
+.insights .insights-row .bg-3 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/insights-right.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #ffffff;
+}/*# sourceMappingURL=main.css.map */

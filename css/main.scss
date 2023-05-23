@@ -1,0 +1,336 @@
+$primary-green: #03363D;
+$primary-orange: #FC7753;
+$primary-white: #ffffff;
+$off-white: #F7F4EF;
+$text-primary: #293135;
+
+// ----------------------- Button
+
+.button-primary {
+    border: 1px solid $primary-orange;
+    border-radius: 50px;
+    color: $primary-orange;
+    cursor: pointer;
+    margin-left: 0.5rem;
+    padding: 0.65rem;
+}
+
+.button-filled {
+    background: $primary-orange;
+    border-radius: 50px;
+    color: $primary-white;
+    cursor: pointer;
+    font-weight: 900;
+    margin-left: 0.5rem;
+    padding: 1rem;
+}
+
+.button-dark-filled {
+    background: $text-primary;
+    border-radius: 50px;
+    color: $primary-white;
+    cursor: pointer;
+    font-weight: 900;
+    margin-left: 0.5rem;
+    padding: 1rem;
+}
+
+.button-borderless {
+    color: $primary-orange;
+    margin-left: 0.5rem;
+}
+
+.newsletter {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+input {
+    border: 1px solid $text-primary !important;
+}
+
+// ----------------------- Header
+
+.header {
+    background-color: $primary-green;
+    height: 100vh;
+
+    .content {
+        align-items: center;
+        background-color: $off-white;
+        display: flex;
+        gap: 3rem;
+        height: 100vh;
+        margin-left: 25vw;
+        padding: 13rem;
+        text-align: right;
+
+        .content-text {
+
+            h1 {
+                font-size: 80px;
+                font-weight: 700;
+            }
+
+            p {
+                font-size: 32px;
+                font-weight: 100;
+                line-height: 41px;
+            }
+
+        }
+
+        img {
+            max-height: 60vh;
+        }
+    }
+}
+
+// ----------------------- Transparent Recruitment
+
+.transparent-recruitment {
+    align-items: center;
+    background: url('../img/trans-bg.png') right / 45% no-repeat, $primary-green;
+    color: $primary-white;
+    display: flex;
+    flex-direction: row;
+    height: 70vh;
+    justify-content: space-between;
+
+    .content {
+        padding-right: 5rem;
+
+        h2 {
+            font-size: 38px;
+            line-height: 57px;
+        }
+
+        p {
+            font-size: 32px;
+            font-weight: 100;
+            line-height: 41px;
+            padding-right: 3rem;
+        }
+
+        p.small {
+            font-size: 16px !important;
+        }
+    }
+}
+
+// ----------------------- Industry experts
+
+.industry-experts {
+    padding: 5rem 0;
+
+    .content {
+        display: flex;
+        flex-direction: column;
+
+        .content-section {
+            display: flex;
+            flex-direction: row;
+            gap: 2rem;
+
+            .card {
+                border: none;
+                border-radius: 0;
+
+                .card-img-top {
+                    border-radius: 0 !important;
+                }
+
+                .card-body {
+                    background: $off-white;
+                    flex: none;
+
+                    p.cta {
+                        color: $primary-orange;
+                        line-height: 24px;
+                    }
+                }
+
+                .list-group {
+                    border-top: 1px solid #29313537;
+                }
+
+                .list-group-item {
+                    background-color: $off-white;
+                    border-color: #29313537;
+                    padding: 1rem;
+                }
+            }
+        }
+    }
+}
+
+// ----------------------- Top talents
+
+.top-talents {
+    align-items: center;
+    background: url('../img/top-talents.png') left / 45% no-repeat, $primary-white;
+    display: flex;
+    flex-direction: row;
+    height: 70vh;
+    justify-content: space-between;
+
+    .content {
+        margin-left: 40vw;
+        padding-right: 5rem;
+
+        h2 {
+            font-size: 38px;
+            line-height: 57px;
+        }
+
+        p {
+            font-size: 32px;
+            font-weight: 100;
+            line-height: 41px;
+            padding-right: 3rem;
+        }
+
+        p.small {
+            font-size: 16px !important;
+        }
+    }
+}
+
+// ----------------------- Latest roles
+
+.latest-roles {
+    display: flex;
+    flex-direction: column;
+    margin-top: 4rem;
+
+    .content-row {
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+    }
+
+    .latest-roles-content {
+        display: flex;
+        flex-direction: row;
+        gap: 1rem;
+        margin-top: 3rem;
+
+        .card {
+            background-color: $off-white;
+            border: none;
+            padding: 1rem;
+        }
+    }
+
+    h1 {
+        font-size: 53px;
+        margin-bottom: 3rem;
+        margin-top: 4rem;
+        line-height: 63px;
+    }
+
+    .testimonials {
+        margin-bottom: 6rem;
+
+        .card-group {
+            gap: 1rem;
+
+            .card {
+                border: none;
+                border-radius: 0;
+
+                .card-title {
+                    color: $primary-orange;
+                    border-bottom-color: $primary-orange !important;
+                }
+            }
+
+            .card-img-top {
+                border-radius: 0;
+                max-height: 95px;
+                padding-left: 1rem;
+                width: fit-content;
+            }
+        }
+    }
+}
+
+// ----------------------- Insights
+
+.insights {
+    background-color: $off-white;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+
+    .title {
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-bottom: 4rem;
+    }
+
+    .insights-row {
+        display: flex;
+        flex-direction: row;
+        gap: 2rem;
+        margin-bottom: 7rem;
+
+        .card {
+            padding: 1rem;
+            
+            .card-date {
+                color: $primary-orange;
+                font-size: 14px;
+                line-height: 24px;
+                margin: 0;
+            }
+
+            .card-title {
+                font-size: 38px;
+                line-height: 59px;
+            }
+    
+            .card-text {
+                font-size: 24px;
+                font-weight: 100;
+                line-height: 40px;
+            }
+    
+            .card-cta {
+                font-weight: 100;
+                line-height: 40px;
+            }
+        }
+
+        .bg-1 {
+            background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/insights-left.png');
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            color: $primary-white;
+
+        }
+
+        .bg-2 {
+            background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/insights-middle.png');
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            color: $primary-white;
+
+        }
+
+        .bg-3 {
+            background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/insights-right.png');
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            color: $primary-white;
+
+        }
+    }
+}
