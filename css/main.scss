@@ -52,6 +52,31 @@ input {
 
 // ----------------------- Header
 
+nav.navbar.navbar-light.bg-light {
+    background: transparent !important;
+    padding: 2rem 3rem;
+    position: absolute;
+    width: 100%;
+
+    ul.navbar-nav.ml-auto {
+        display: flex;
+        flex-direction: row;
+
+        li {
+            padding: 0 0.7rem;
+        }
+
+        li.nav-item.button {
+            background: $primary-orange;
+            border-radius: 50px;
+
+            a.nav-link {
+                color: $primary-white;
+            }
+        }
+    }
+}
+
 .header {
     background-color: $primary-green;
     height: 100vh;

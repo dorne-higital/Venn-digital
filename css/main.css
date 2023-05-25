@@ -42,6 +42,27 @@ input {
   border: 1px solid #293135 !important;
 }
 
+nav.navbar.navbar-light.bg-light {
+  background: transparent !important;
+  padding: 2rem 3rem;
+  position: absolute;
+  width: 100%;
+}
+nav.navbar.navbar-light.bg-light ul.navbar-nav.ml-auto {
+  display: flex;
+  flex-direction: row;
+}
+nav.navbar.navbar-light.bg-light ul.navbar-nav.ml-auto li {
+  padding: 0 0.7rem;
+}
+nav.navbar.navbar-light.bg-light ul.navbar-nav.ml-auto li.nav-item.button {
+  background: #FC7753;
+  border-radius: 50px;
+}
+nav.navbar.navbar-light.bg-light ul.navbar-nav.ml-auto li.nav-item.button a.nav-link {
+  color: #ffffff;
+}
+
 .header {
   background-color: #03363D;
   height: 100vh;
